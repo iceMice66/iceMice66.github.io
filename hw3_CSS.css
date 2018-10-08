@@ -1,0 +1,96 @@
+table,th,td{
+    margin: 40px;
+    font-family: orator std;
+    border: 2px solid rgb(17, 0, 112);
+    border-collapse: collapse;
+    background-color: rgba(176, 224, 230, 0.6);
+}
+th, td {
+    padding: 5px;
+}
+th{
+    color:aliceblue;
+    background-color: rgba(215, 57, 255, 0.527);
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.centertable {
+    display: block;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: auto;
+    
+}
+h1{
+    font-size: 80px;
+    text-align: center;
+    font-family: orator std;
+    color: chartreuse;
+    margin: 0px;
+}
+h3{
+    font-size: 45px;
+    text-align: center;
+    font-family: orator std;
+    color: chartreuse;
+}
+body{
+    margin: 0px;
+    background-color:#353535;
+    background-image: url("cityview.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% auto;
+}
+
+#t1:hover{
+    background-color: rgba(90, 210, 214, 0.8);
+}
+#i1{
+    padding: 0;
+    display: block;
+    margin: 0;
+    max-height:auto;
+    max-width: 100%;
+}
+header{
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.527);
+}
+
+article {
+    float: left;
+    width: 40%;
+
+   
+}
+section {
+    float: left;
+    width: 60%;
+    
+   
+}
+
+@media (max-width: 600px) {
+    section, article {
+        width: 100%;
+        height: auto;
+    }
+    body{
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: auto;
+    }
+}
+p{
+    background-color: rgba(37, 37, 83, 0.74);
+    color: chartreuse;
+    margin: 30px 100px;
+    font-family: consolas;
+    font-size: 24px;
+}
